@@ -1,0 +1,14 @@
+<script type="text/javascript">
+$(document).ready(function () { 
+
+  if (window.location.href.indexOf("/FileSubmission") > -1){
+          //Show price on page load (2 second timeout)
+          setTimeout(function(){ 
+             $("#lnkTotalPrice")[0].click();
+          }, 2000);
+
+  }
+
+});
+
+</script>
